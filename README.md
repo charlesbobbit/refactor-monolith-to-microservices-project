@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/charlesbobbit/refactor-monolith-to-microservices-project/actions/workflows/docker-image.yml/badge.svg)](https://github.com/charlesbobbit/refactor-monolith-to-microservices-project/actions/workflows/docker-image.yml)
+
 # Udagram Image Filtering Application
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
