@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata: 
   name: env-config
 data:
-  POSTGRES_HOST: owoh-dbs.c2e77q19ojdl.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: owoh-db.c5lrhgdarmiu.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
   AWS_BUCKET: project-owoh-dev
   AWS_REGION: us-east-1

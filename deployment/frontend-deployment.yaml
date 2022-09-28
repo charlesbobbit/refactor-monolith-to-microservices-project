@@ -23,11 +23,9 @@ spec:
         - containerPort: 80
         resources:
           requests:
-            memory: "2048Mi"
-            cpu: "600m"
+            cpu: 200m
           limits:
-            memory: "2048Mi"
-            cpu: "600m"                
+            cpu: 500m                
       restartPolicy: Always
 
 ---
@@ -39,7 +37,7 @@ metadata:
 spec:
   ports:
   - name: "8100"
-    port: 8100
+    port: 80
     targetPort: 80
   selector:
     app: frontend
